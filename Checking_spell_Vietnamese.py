@@ -27,6 +27,8 @@ type_keyboard = {"ă":"aw","â":"aa","á":"as","à":"af","ả":"ar","ã":"ax","�
 
 reverse_type = {w: k for k, w in type_keyboard.items()}
 
+print("Test check git clone")
+
 # Import class
 class Ui_MainWindow(QMainWindow):
     def __init__(self):
