@@ -101,3 +101,4 @@ if __name__ == "__main__":
     window = Ui_MainWindow()
     window.show()
     sys.exit(app.exec_())
+    
