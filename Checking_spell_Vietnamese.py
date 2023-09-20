@@ -95,10 +95,10 @@ class Ui_MainWindow(QMainWindow):
             else:
                 corrected_text += char
         return corrected_text
+
     
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = Ui_MainWindow()
     window.show()
     sys.exit(app.exec_())
-    
